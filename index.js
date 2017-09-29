@@ -5,7 +5,8 @@ function getFirstSelector(selector){
 
 function nestedTarget(){
   //pulls a .target out of #nested (# is used for IDs in selectors)
-  return #nested:.target
+  const lis = document.getElementById('nested').querySelectorAll('target')
+  return lis
 }
 
 function increaseRankBy(n){
