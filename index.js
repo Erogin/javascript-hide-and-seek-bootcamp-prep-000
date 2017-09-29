@@ -1,8 +1,9 @@
 function getFirstSelector(selector){
   //accepts a selector and returns the first element that matches
+  var sample = 222
   var docElements = []
   var docElements = document.getElementsByTagName(`${selector}`)
-  return docElements[0]
+  return sample
 }
 
 function nestedTarget(){
