@@ -4,7 +4,8 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  //pulls a .target out of #nested (# is usd for IDs in selectors)
+  //pulls a .target out of #nested (# is used for IDs in selectors)
+  return #nested:.target
 }
 
 function increaseRankBy(n){
