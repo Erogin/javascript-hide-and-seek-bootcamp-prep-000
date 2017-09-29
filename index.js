@@ -7,7 +7,7 @@ function nestedTarget(){
   //pulls a .target out of #nested (# is used for IDs in selectors)
   const lis = document.getElementById('nested').querySelectorAll('div')
   for (let i = 0; i < lis.length; i++) {
-    if (lis[i].innerHTML === lis.length - 1){
+    if (i === lis.length - 1){
       return lis[i]
     }
   }
