@@ -5,7 +5,7 @@ function getFirstSelector(selector){
 
 function nestedTarget(){
   //pulls a .target out of #nested (# is used for IDs in selectors)
-  const lis = document.getElementById('nested').querySelectorAll('target')
+  const lis = document.getElementById('nested').querySelectorAll('div')
   return lis
 }
 
