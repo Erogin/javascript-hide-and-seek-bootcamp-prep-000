@@ -11,7 +11,7 @@ function nestedTarget(){
       return lis[i].target
     }
   }
-  return
+  return lis
 }
 
 function increaseRankBy(n){
